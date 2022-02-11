@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "VuiCoin Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Vuicoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "VUI",
 
   // logo
   "logo": "/images/logo.png",
@@ -53,13 +53,13 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "username": "darkcoinrpc",
-    "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 9999,
+    "username": "user",
+    "password": "password"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 101,
 
   // language settings
   "locale": "locale/en.json",
@@ -135,8 +135,8 @@
   "youtube": "youryoutubechannel",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "3d957f963a8308c24522963316b4ff2295a854af8a6979ef2e9e6cbbad640ae0",
+  "genesis_block": "30f3737c04c924166346df5d15a299a0891aa253388bc8208d1428110b112826",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
