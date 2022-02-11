@@ -62,8 +62,29 @@ To stop the cluster you can use
 
     npm stop
 
-### Syncing databases with the blockchain
+### Config coin
+vuicoin.conf
 
+server=1
+whitelist=127.0.0.1
+txindex=1
+addressindex=1
+timestampindex=1
+spentindex=1
+zmqpubrawtx=tcp://127.0.0.1:28332
+zmqpubhashblock=tcp://127.0.0.1:28332
+rpcallowip=127.0.0.1
+rpcuser=user
+rpcpassword=password
+rpcport=9999
+reindex=1
+gen=0
+addrindex=1
+logevents=1
+
+
+
+### Syncing databases with the blockchain
 sync.js (located in scripts/) is used for updating the local databases. This script must be called from the explorers root directory.
 
     Usage: node scripts/sync.js [database] [mode]
