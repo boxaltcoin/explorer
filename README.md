@@ -85,6 +85,11 @@ vuicoin.conf
 
 
 ### Syncing databases with the blockchain
+
+
+    node scripts/sync.js reindex update
+    
+    
 sync.js (located in scripts/) is used for updating the local databases. This script must be called from the explorers root directory.
 
     Usage: node scripts/sync.js [database] [mode]
